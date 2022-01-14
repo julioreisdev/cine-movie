@@ -1,0 +1,89 @@
+body {
+    margin: 0 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    border-bottom: 1px solid purple;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 2.5rem;
+    color: purple;
+    margin: 0 10px 1rem 0;
+}
+
+.logo img {
+    width: 50px;
+}
+
+#link-voltar {
+    border: 1px solid purple;
+    border-radius: 3px;
+    color: purple;
+    padding: 0.2rem;
+}
+
+.post {
+    background-color: rgb(224, 191, 224);
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: justify;
+    border-radius: 3px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titulo-post {
+    color: purple;
+    text-align: center;
+}
+
+.detalhes-criacao-post {
+    text-align: center;
+    color: rgb(95, 53, 95);
+    font-size: 0.8rem;
+}
+
+.criadores {
+    border-top: 1px solid purple;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.criadores p {
+    color: purple;
+    font-weight: bold;
+}
+
+.criadores img {
+    width: 100%;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    padding: 0.1rem;
+    text-align: center;
+}
+
+footer p {
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    font-size: 1.5rem;
+}
+
+@media (min-width:0) and (max-width:768px) {
+    body {
+        margin: 0 10%;
+    }
+}
